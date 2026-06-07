@@ -1,0 +1,5 @@
+gene	tissue	disorder	n_snps	lead_eqtl	cs_mtdna	cs_disorder	susie_PP4_mtdna_disorder	lead_eqtl_in_mtdna_CS	lead_eqtl_in_disorder_CS
+RECQL4	Brain_Cortex	ADHD	195	8:145733794	0	1		FALSE	FALSE
+NDUFAF3	Brain_Cerebellar_Hemisphere	ADHD	535	3:49706736	1	2	0.0192272271837918	FALSE	FALSE
+AMT	Brain_Amygdala	ADHD	517	3:49355374	1	0		FALSE	FALSE
+MSRA	Brain_Hippocampus	ASD	1569	8:10009533	0	0		FALSE	FALSE

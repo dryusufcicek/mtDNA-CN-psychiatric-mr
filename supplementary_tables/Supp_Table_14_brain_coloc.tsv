@@ -1,0 +1,31 @@
+### Supplementary Table 14 — Exploratory brain cis-eQTL colocalization (coloc.abf) at mtDNA-CN instrument loci
+
+GTEx v10 cis-eQTLs from 13 brain regions colocalized with ASD, ADHD, and the F3 neurodevelopmental factor at +/-500 kb windows around mtDNA-CN instrument SNPs nominally (p<=0.05) associated with each disorder. Positions liftOver'd GRCh38->GRCh37 (pyliftover) and matched by chromosome:position. coloc.abf single-causal-variant assumption; PP4 = posterior probability of a shared causal variant. EXPLORATORY/hypothesis-generating: windows selected on disorder association (no genome-wide rate), and a high eQTL-disorder PP4 does not establish mtDNA-CN mediation. Listed: MitoCarta3.0 genes with PP4 >= 0.5 (n=26 gene-tissue-disorder triplets). Total coloc tests: 24,194; strong (PP4>=0.75) overall: 258.
+
+gene	outcome	tissue	n_snps	PP3	PP4	MitoCarta
+RECQL4	ADHD	Brain_Cerebellar_Hemisphere	69	0.027	0.973	yes
+RECQL4	ADHD	Brain_Caudate_basal_ganglia	38	0.015	0.971	yes
+RECQL4	ADHD	Brain_Cortex	32	0.002	0.964	yes
+SUOX	ADHD	Brain_Anterior_cingulate_cortex_BA24	33	0.060	0.882	yes
+SUOX	ADHD	Brain_Amygdala	46	0.088	0.875	yes
+SUOX	ADHD	Brain_Substantia_nigra	45	0.096	0.853	yes
+SUOX	ADHD	Brain_Caudate_basal_ganglia	81	0.104	0.851	yes
+SUOX	ADHD	Brain_Spinal_cord_cervical_c-1	65	0.110	0.850	yes
+SUOX	ADHD	Brain_Putamen_basal_ganglia	155	0.116	0.843	yes
+SUOX	ADHD	Brain_Frontal_Cortex_BA9	65	0.115	0.842	yes
+SUOX	ADHD	Brain_Cortex	68	0.118	0.838	yes
+SUOX	ADHD	Brain_Hippocampus	62	0.119	0.838	yes
+SUOX	ADHD	Brain_Cerebellum	213	0.120	0.837	yes
+SUOX	ADHD	Brain_Hypothalamus	55	0.125	0.831	yes
+SUOX	ADHD	Brain_Cerebellar_Hemisphere	68	0.129	0.825	yes
+SUOX	ADHD	Brain_Nucleus_accumbens_basal_ganglia	145	0.153	0.792	yes
+NDUFAF3	ADHD	Brain_Cerebellar_Hemisphere	52	0.021	0.661	yes
+AMT	ADHD	Brain_Substantia_nigra	186	0.117	0.589	yes
+RMDN1	ADHD	Brain_Putamen_basal_ganglia	346	0.092	0.524	yes
+AMT	ADHD	Brain_Amygdala	134	0.056	0.516	yes
+NDUFAF3	ADHD	Brain_Cortex	225	0.116	0.507	yes
+RMDN1	ADHD	Brain_Caudate_basal_ganglia	437	0.108	0.506	yes
+MSRA	ASD	Brain_Hippocampus	130	0.184	0.767	yes
+NT5DC2	ASD	Brain_Anterior_cingulate_cortex_BA24	33	0.017	0.541	yes
+MSRA	ASD	Brain_Cerebellum	116	0.037	0.537	yes
+RECQL4	F3	Brain_Cerebellar_Hemisphere	31	0.002	0.962	yes

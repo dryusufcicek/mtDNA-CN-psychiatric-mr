@@ -1,0 +1,7 @@
+panel_A	panel_B	n_outcomes	pearson_r	spearman_rho	sign_concord_pct
+Longchamps_2022	Chong_2022	25	0.903	0.824	68
+Longchamps_2022	Gupta_2023_raw	25	0.707	0.742	68
+Longchamps_2022	Gupta_2023_adj	25	0.553	0.361	60
+Chong_2022	Gupta_2023_raw	25	0.733	0.716	76
+Chong_2022	Gupta_2023_adj	25	0.619	0.459	52
+Gupta_2023_raw	Gupta_2023_adj	25	0.687	0.505	44

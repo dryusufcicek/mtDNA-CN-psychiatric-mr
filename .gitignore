@@ -1,0 +1,46 @@
+# ---- Raw / large GWAS data (licensed; NOT redistributed) ----
+data/
+*.gz
+*.bgz
+*.parquet
+*.bgen
+*.bgen.*
+*.bed
+*.bim
+*.fam
+*.vcf
+*.vcf.*
+
+# ---- Large intermediate / heavy results ----
+results/checkpoints/
+results/magma/
+results/twas/
+*.rds
+*.RData
+
+# ---- Logs ----
+logs/
+*.log
+*.err
+*.out
+slurm-*.out
+
+# ---- Manuscript text (distributed via preprint/journal, not the code repo) ----
+manuscript_draft/
+*.docx
+*.doc
+
+# ---- Internal / contradicts the final paper (do not publish) ----
+docs/OSF_PREREGISTRATION_DRAFT.md
+docs/HYPOTHESIS.md
+
+# ---- Backups / caches / OS cruft ----
+*.bak
+*.bak_*
+*~
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.DS_Store
+.ipynb_checkpoints/

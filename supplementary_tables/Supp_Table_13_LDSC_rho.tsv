@@ -1,0 +1,33 @@
+### Supplementary Table 13 — Cross-panel sample-overlap correlation (bivariate LD-score-regression intercepts) and correlation-aware p by rho
+
+Panel A. Normalized LDSC genetic-covariance intercept matrix (cov2cor of the GenomicSEM I matrix) = exposure-side sample-overlap correlation among the four mtDNA-CN panels. Mean off-diagonal 0.487 (range 0.310-0.857). The two Gupta panels (identical 155,998 individuals) are near-redundant (0.857); the two UK-Biobank-heavy panels (Longchamps, Chong) correlate 0.740. Genetic correlations among panels were 0.74-0.97 (same trait).
+
+panel	Longchamps	Chong	Gupta_raw	Gupta_adj
+Longchamps	1.000	0.740	0.335	0.353
+Chong	0.740	1.000	0.310	0.325
+Gupta_raw	0.335	0.310	1.000	0.857
+Gupta_adj	0.353	0.325	0.857	1.000
+
+Panel B. Correlation-aware p-value per outcome at the LDSC-derived rho=0.49, the primary rho=0.70, and rho=0.90 (computed by scaling the pipeline correlation-aware standard error; reproduces Supplementary Table 12 at rho=0.55/0.70/0.90). Point estimates (corr_beta) are unchanged by rho.
+
+outcome	corr_beta	corr_p_rho0.49_LDSC	corr_p_rho0.70_primary	corr_p_rho0.90
+SCZ	-0.0474	0.3404	0.3948	0.436
+BD	0.0161	0.672	0.7055	0.7294
+MDD	-0.0048	0.7749	0.7985	0.8152
+ADHD	-0.0793	0.1269	0.173	0.2123
+ASD	-0.1818	0.002061	0.005953	0.01182
+F3	-0.0866	0.0041	0.0104	0.01902
+ANX	-0.0051	0.857	0.8722	0.8829
+OCD	-0.0127	0.7832	0.806	0.8221
+PTSD	0.0036	0.6679	0.7017	0.7259
+AN	0.0249	0.6762	0.7093	0.733
+BPD	-0.0467	0.5406	0.5849	0.6171
+TS	0.1429	0.1992	0.2518	0.2942
+PPD	0.0256	0.6415	0.6777	0.7036
+F1	-0.0024	0.9453	0.9512	0.9553
+F2	0.0051	0.8739	0.8873	0.8968
+F4	0.0055	0.6481	0.6837	0.7092
+F5	0.0246	0.1661	0.2164	0.2578
+PFactor	0.0024	0.8323	0.8501	0.8627
+BMI	0	1	1	1
+Height	-0.0113	0.6741	0.7074	0.7311

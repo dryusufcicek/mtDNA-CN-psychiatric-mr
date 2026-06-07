@@ -8,9 +8,6 @@ with and without blood-cell-composition adjustment).
 **Authors:** Yusuf Cicek, Murat Can Çelik (Department of Psychiatry, Cerrahpaşa Faculty of Medicine,
 Istanbul University-Cerrahpaşa).
 
-> **Status:** code/results released alongside the manuscript. The manuscript text is not included in
-> this repository (it is distributed via preprint/journal). Not preregistered.
-
 ## Summary of findings
 - Higher genetically proxied mtDNA-CN was associated most robustly with **lower autism spectrum
   disorder (ASD) liability** (β = −0.182; design-effect-corrected *p* = 5.97 × 10⁻³; BH-FDR *q* = 0.030).

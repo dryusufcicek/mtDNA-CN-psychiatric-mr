@@ -5,8 +5,7 @@ genetically proxied blood **mitochondrial DNA copy number (mtDNA-CN)** across ps
 using **four partially overlapping mtDNA-CN GWAS exposure panels** (qPCR, SNP-array, and WGS-derived,
 with and without blood-cell-composition adjustment).
 
-**Authors:** Yusuf Cicek, Murat Can Çelik (Department of Psychiatry, Cerrahpaşa Faculty of Medicine,
-Istanbul University-Cerrahpaşa).
+Yusuf Cicek et al.
 
 ## Summary of findings
 - Higher genetically proxied mtDNA-CN was associated most robustly with **lower autism spectrum

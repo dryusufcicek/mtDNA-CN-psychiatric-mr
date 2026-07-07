@@ -28,7 +28,7 @@ scripts/                 # full analysis pipeline (R / Python / bash)
 results/                 # small derived summary results (TSV)
   coloc/                 #   coloc.abf, three-way, and SuSiE outputs
   forward_mr/  meta_mr/  reverse_mr/  mrlap/  ldsc_rho/  …
-supplementary_tables/    # Supplementary_Tables.xlsx (S1–S16) + per-table TSVs
+supplementary_tables/    # Supplementary_Tables.xlsx (S1–S18) + per-table TSVs
 docs/ENVIRONMENT.md      # compute environment + R/Python package versions
 ```
 
@@ -45,6 +45,8 @@ docs/ENVIRONMENT.md      # compute environment + R/Python package versions
 | 7 | `07_reverse_mr.R` | reverse-direction MR |
 | 8 | `08a_extract_cis_eqtl.py`, `08b_liftover_eqtl.py`, `08b_coloc_fixed.R`, `08c_threeway_coloc.R`, `08d_coloc_susie_v2.R` | GTEx v10 brain eQTL colocalization: eQTL×disorder, three-way, and SuSiE fine-mapping |
 | 9 | `09a_prep_magma_inputs.py`, `09_magma_mitocarta.sh` | MAGMA × MitoCarta3.0 gene-set / sub-pathway enrichment |
+| 10 | `10_rare_variant_sensitivity.py` | rare / low-frequency-instrument (MAF) leave-out sensitivity of the forward MR (Supp. Table 17) |
+| 11 | `11_instrument_vep_annotation.py` | Ensembl (GRCh38.p14) functional annotation of the instruments (Supp. Table 18) |
 | – | `build_supp_table_1.py`, `rebuild_supp_t2.R` | supplementary table assembly |
 
 `run_mr_pipeline.sh` orchestrates the core MR steps; `submit_*.sh` are SLURM wrappers for the HPC

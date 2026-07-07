@@ -1,0 +1,203 @@
+Supplementary Table 18 - Functional annotation of mtDNA-CN genetic instruments (Ensembl, GRCh38.p14)				
+Gene, most-severe consequence and Ensembl PolyPhen/SIFT predictions (GRCh38.p14) for the unique genetic instruments across the four exposure panels, as described in Methods (Ensembl BioMart/VEP give identical predictions). Damaging = PolyPhen 'probably_damaging' or SIFT 'deleterious'.				
+rsID	gene	consequence	PolyPhen	SIFT
+rs10419397	USHBP1	intron_variant		
+rs1059091	IFITM2	missense_variant	benign	deleterious_low_confidence
+rs1065853	APOC1	upstream_gene_variant		
+rs10749636	TRIM58	5_prime_UTR_variant		
+rs10835540	STIM1	intron_variant		
+rs11064074		intron_variant		
+rs11064881	CIT	non_coding_transcript_exon_variant		
+rs11085147	LONP1	missense_variant	benign	deleterious_low_confidence
+rs111801459	OVOL2	intron_variant		
+rs112271280	DGKB	intron_variant		
+rs1127787	MRPS35	missense_variant	benign	tolerated
+rs114694170	MEF2C	5_prime_UTR_variant		
+rs11553699	RHOF	3_prime_UTR_variant		
+rs11593061	TRIM8	upstream_gene_variant		
+rs11668201	SLC27A5	3_prime_UTR_variant		
+rs11764390	CD36	intron_variant		
+rs117948349	DCAF5	intron_variant		
+rs117987404	FOXP2	intron_variant		
+rs11867435	HGS	intron_variant		
+rs11867543	HGS	intron_variant		
+rs11871678	HGS	intron_variant		
+rs12052715	LY75	intron_variant		
+rs12094497	FCER1G	intron_variant		
+rs12147688	PNP	non_coding_transcript_exon_variant		
+rs12148	SCO2	synonymous_variant		
+rs12247015	TFAM	upstream_gene_variant		
+rs12426673	USP30	non_coding_transcript_exon_variant		
+rs12806698	RRM1	non_coding_transcript_exon_variant		
+rs13084580	CSRNP1	5_prime_UTR_variant		
+rs13088724	GNB4	intron_variant		
+rs13089906	MFN1	5_prime_UTR_variant		
+rs1354034	ARHGEF3	intron_variant		
+rs1362214		intron_variant		
+rs13815	MCAT	missense_variant	benign	deleterious
+rs1420472		intron_variant		
+rs144311893	APOC1	downstream_gene_variant		
+rs148030340	LINC01392	intron_variant		
+rs148475745	PRKAB1-AS1	intron_variant		
+rs149467613	P2RY2	intron_variant		
+rs151234	CLN3	5_prime_UTR_variant		
+rs156355		intron_variant		
+rs156356		non_coding_transcript_exon_variant		
+rs1569419	PRDM16	intron_variant		
+rs1598010	TNPO1-DT	intron_variant		
+rs1613662	GP6	missense_variant	benign	tolerated
+rs1668871	TMCC2	intron_variant		
+rs16850073	CXCL6	3_prime_UTR_variant		
+rs1716505	RASSF3	intron_variant		
+rs17406646	THADA	intron_variant		
+rs1760940	PNP	intron_variant		
+rs17758695	BCL2	intron_variant		
+rs17791786	TTC21A	intron_variant		
+rs17850455	POLG2	missense_variant	probably_damaging	deleterious
+rs182346769	RHD	intron_variant		
+rs192890685	PRKAB1-AS1	intron_variant		
+rs1967556	TAOK1	intron_variant		
+rs200309755	TAOK1	intron_variant		
+rs2007720	ADA	intron_variant		
+rs2015599	FAR2	non_coding_transcript_exon_variant		
+rs2038480	DNM3	intron_variant		
+rs204071	OPRD1	3_prime_UTR_variant		
+rs2070016	FGA	intron_variant		
+rs2158799	JAZF1-AS1	intron_variant		
+rs2216546	BANK1	intron_variant		
+rs2236055	MFN2	5_prime_UTR_variant		
+rs2241942	SLC6A5	intron_variant		
+rs2245946	MCAT	3_prime_UTR_variant		
+rs2245947	MCAT	3_prime_UTR_variant		
+rs2256258	SIRPD	intron_variant		
+rs2263663	SIRPD	non_coding_transcript_exon_variant		
+rs2274319	MEF2D	intron_variant		
+rs2290507	LLGL1	non_coding_transcript_exon_variant		
+rs2302643	SERTAD2	intron_variant		
+rs2304693	TBRG4	missense_variant	benign	tolerated
+rs2322718	PTK2B	intron_variant		
+rs2338224		intergenic_variant		
+rs2422141	C1orf105	intron_variant		
+rs2426092	PREX1	intron_variant		
+rs2428070		intergenic_variant		
+rs2450771	TOP1MT	intron_variant		
+rs261290	ALDH1A2	intron_variant		
+rs2738058	DEFA9P	upstream_gene_variant		
+rs2814778	ACKR1	splice_polypyrimidine_tract_variant		
+rs283764	RTTN	intron_variant		
+rs2853677	TERT	3_prime_UTR_variant		
+rs28665408	CD226	intron_variant		
+rs289713	CETP	intron_variant		
+rs2977608	LINC01128	intron_variant		
+rs3087374	POLG	missense_variant	benign	deleterious_low_confidence
+rs342290		intron_variant		
+rs342293		intron_variant		
+rs34592828	IQGAP2	missense_variant		deleterious_low_confidence
+rs34623301	THPO	intron_variant		
+rs34894010	MFN1	intron_variant		
+rs35150201	STMP1	intron_variant		
+rs35512749	MRPS35	intron_variant		
+rs35586766	ANKLE1	missense_variant	probably_damaging	tolerated_low_confidence
+rs36024491	ZFPM1	intron_variant		
+rs3766744	MFN2	intron_variant		
+rs3818157	PLOD1	intron_variant		
+rs385893		downstream_gene_variant		
+rs3859187	PSMD3	non_coding_transcript_exon_variant		
+rs3901193	MAPK11	non_coding_transcript_exon_variant		
+rs3917932	CSF3R	intron_variant		
+rs3961455	TRIM8	3_prime_UTR_variant		
+rs41444045	MRPL43	non_coding_transcript_exon_variant		
+rs4148974	NDUFV3	stop_gained		
+rs4284061	DEFA3	upstream_gene_variant		
+rs4388979	USP30	intron_variant		
+rs4427713	AKAP6	intron_variant		
+rs445	CDK6	intron_variant		
+rs447124	AK3	intron_variant		
+rs453301	PPP1R3B-DT	intron_variant		
+rs463312	TUBB1	missense_variant		deleterious_low_confidence
+rs4698839	BANK1	intron_variant		
+rs4728358	NUP205	intron_variant		
+rs4759076	COPZ1	intron_variant		
+rs4760	PLAUR	missense_variant	probably_damaging	deleterious
+rs4814776	SIRPA	upstream_gene_variant		
+rs4841132	PPP1R3B-DT	non_coding_transcript_exon_variant		
+rs4841773	GS1-24F4.2	intron_variant		
+rs4895441	HBS1L	upstream_gene_variant		
+rs4910492	SWAP70	intron_variant		
+rs4910886	RRM1	intron_variant		
+rs4919090	FRAT2	downstream_gene_variant		
+rs5012419		intergenic_variant		
+rs5030394	ICAM1	intron_variant		
+rs55823018	ZFPM1	intron_variant		
+rs56011263	PCGF3	intron_variant		
+rs56069439	ANKLE1	non_coding_transcript_exon_variant		
+rs56116444	NREP	intron_variant		
+rs56388170	CREB5	intron_variant		
+rs57066921	TWNK	intron_variant		
+rs57808902	FLII	downstream_gene_variant		
+rs58395458	CARINH	intron_variant		
+rs59488041		upstream_gene_variant		
+rs6045559	SIRPA	3_prime_UTR_variant		
+rs6105852	MGME1	intron_variant		
+rs6132106	PDYN-AS1	upstream_gene_variant		
+rs61658003	GP6	5_prime_UTR_variant		
+rs61691222	TRIM8	3_prime_UTR_variant		
+rs62128105	ANO8	intron_variant		
+rs62128793		intergenic_variant		
+rs62525615	CCDC26	intron_variant		
+rs62641680	DGUOK	synonymous_variant		
+rs6425521	DNM3	intron_variant		
+rs6467603	STMP1	intron_variant		
+rs651007	ABO	upstream_gene_variant		
+rs6511720	LDLR	intron_variant		
+rs655029	EHD3	3_prime_UTR_variant		
+rs6580981	COPZ1	intron_variant		
+rs6658120	MEF2D	intron_variant		
+rs6686289	LEPR	downstream_gene_variant		
+rs6724905	ACTG2	intron_variant		
+rs680478	PPP4R1	intron_variant		
+rs6816787	BANK1	intron_variant		
+rs6943701	NACAD	upstream_gene_variant		
+rs6959832	NUP205	intron_variant		
+rs6986601	CYRIB	intron_variant		
+rs6988835	CHD7	intron_variant		
+rs701834	LZTS2	5_prime_UTR_variant		
+rs7080386	JMJD1C	intron_variant		
+rs7080536	HABP2	missense_variant	probably_damaging	deleterious
+rs711244	STRN	3_prime_UTR_variant		
+rs7213347	SMG6	intron_variant		
+rs7216214	SHMT1	intron_variant		
+rs7239671	CD226	3_prime_UTR_variant		
+rs7248028	PTPRH	intron_variant		
+rs72660908	RSRP1	intron_variant		
+rs72698721		intron_variant		
+rs72698722		intron_variant		
+rs7280028	RUNX1	intron_variant		
+rs73166131	LINC01997	intron_variant		
+rs73349121	LZTS2	5_prime_UTR_variant		
+rs73562888	ABCG4	upstream_gene_variant		
+rs7412	APOE	missense_variant		deleterious
+rs74874677	DGUOK	missense_variant	probably_damaging	deleterious
+rs754169	SNX5	downstream_gene_variant		
+rs7580634	IL1RN	intron_variant		
+rs7705526	TERT	intron_variant		
+rs7712401	PPIC-AS1	intron_variant		
+rs77261872	LINC01478	intron_variant		
+rs7800558	DENND2A	intron_variant		
+rs78020802	RRM2B	downstream_gene_variant		
+rs78909033	RNPEPL1	intron_variant		
+rs7896518	JMJD1C	intron_variant		
+rs79811812	SMUG1	non_coding_transcript_exon_variant		
+rs80140716	SLF2	intron_variant		
+rs8066387	TOP3A	intron_variant		
+rs8176645	ABO	intron_variant		
+rs8178414	LPO	3_prime_UTR_variant		
+rs8179	CDK6	3_prime_UTR_variant		
+rs9131	CXCL2	3_prime_UTR_variant		
+rs9399137	HBS1L	intron_variant		
+rs9410336		intron_variant		
+rs9425311	PIGC	intron_variant		
+rs942629	MAX	intron_variant		
+rs983309	PPP1R3B-DT	intron_variant		
+rs9910090	SHMT1	intron_variant		
+rs9936763	USP7	intron_variant		

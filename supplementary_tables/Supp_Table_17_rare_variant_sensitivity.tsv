@@ -1,0 +1,16 @@
+Supplementary Table 17 — Rare/low-frequency-instrument sensitivity of the forward MR				
+Forward MR repeated after excluding low-minor-allele-frequency (MAF) instruments. MAF from harmonized exposure allele frequencies (Longchamps, Gupta raw/adjusted); Chong instruments matched on shared low-MAF variants. Pooled estimate = naive inverse-variance-weighted point estimate; p = design-effect-corrected (rho=0.70). Per-instrument beta/SE from Supplementary Table 3; recomputation reproduces the primary per-panel and pooled estimates exactly.				
+outcome	instrument set	pooled beta	design-effect-corrected p	significant (q-family analogue)
+ASD	all instruments	-0.182	6.6e-03	yes
+ASD	excluding MAF < 5%	-0.225	1.2e-03	yes (strengthened)
+ASD	excluding MAF < 1%	-0.182	6.6e-03	yes (unchanged)
+F3 (neurodevelopmental)	all instruments	-0.087	1.09e-02	nominal
+F3 (neurodevelopmental)	excluding MAF < 5%	-0.081	2.80e-02	nominal (retained)
+ADHD	all instruments	-0.079	1.81e-01	no
+ADHD	excluding MAF < 5%	-0.062	3.25e-01	no
+Low-frequency instruments (MAF < 5%) excluded, examples				
+rsID	approx MAF	note		
+rs5030394	0.005	MAF < 1%		
+rs112271280	0.010	MAF < 1%		
+rs17850455	0.012	POLG2 (featured mtDNA-replication instrument)		
+rs74874677	0.023	DGUOK (featured mtDNA-maintenance instrument)		

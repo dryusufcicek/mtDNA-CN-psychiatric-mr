@@ -1,5 +1,5 @@
 Supplementary Table 18 - Functional annotation of mtDNA-CN genetic instruments (Ensembl, GRCh38.p14)				
-Gene, most-severe consequence and Ensembl PolyPhen/SIFT predictions (GRCh38.p14) for the unique genetic instruments across the four exposure panels, as described in Methods (Ensembl BioMart/VEP give identical predictions). Damaging = PolyPhen 'probably_damaging' or SIFT 'deleterious'.				
+Gene, most-severe consequence and Ensembl PolyPhen/SIFT predictions (GRCh38.p14) for the unique genetic instruments across the four exposure panels, as described in Methods (Ensembl BioMart/VEP give identical predictions). Damaging = PolyPhen 'probably_damaging' or SIFT 'deleterious'. Seven instrument genes meet this OR criterion; the four highlighted in the main text (DGUOK, POLG2, HABP2, PLAUR) also satisfy the stricter consensus (both PolyPhen and SIFT) criterion.				
 rsID	gene	consequence	PolyPhen	SIFT
 rs10419397	USHBP1	intron_variant		
 rs1059091	IFITM2	missense_variant	benign	deleterious_low_confidence

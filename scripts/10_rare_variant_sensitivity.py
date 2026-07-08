@@ -15,12 +15,15 @@ Two steps:
   2. For each panel the fixed- and random-effects IVW estimate is re-computed
      from the per-instrument beta_exposure / se_outcome pairs (as tabulated in
      Supplementary Table 3), after excluding instruments with MAF < 1% and,
-     separately, MAF < 5%. Panels are then pooled with the same design-effect
-     (effective-sample-size) correction used for the primary analysis
-     (rho = 0.70, DEFF = 1 + (k-1)*rho).
+     separately, MAF < 5%. Panels are then pooled with the same correlated-IVW
+     design-effect correction used for the primary analysis: equicorrelation
+     rho = 0.70 with the EXACT a'Sigma-a covariance (Sigma_ij = rho*se_i*se_j,
+     diag = se_i^2), identical to corr_aware_meta.R. (The scalar approximation
+     SE_naive*sqrt(1+(k-1)*rho) is marginally more conservative and does NOT
+     reproduce the primary p exactly, so the exact form is used here.)
 
 Reproduction check: with NO exclusions this script reproduces the primary
-per-panel and pooled ASD estimates exactly (beta = -0.1818, corrected p = 6.6e-3).
+per-panel and pooled ASD estimate exactly (beta = -0.1818, corrected p = 5.97e-3).
 
 Reads:
   - data/exposures_harmonized/{Longchamps2022,Chong2022,Gupta2023_raw,Gupta2023_adjusted}.tsv
@@ -77,13 +80,18 @@ def ivw(pairs):
 
 
 def pooled_corrected(betas, ses):
-    """Naive inverse-variance point estimate; SE inflated by the design effect."""
+    """Correlated-IVW pooling under equicorrelation RHO, using the EXACT quadratic
+    covariance var = a' Sigma a (Sigma_ij = RHO*se_i*se_j, diag = se_i^2), where
+    a_i = w_i/sum(w), w_i = 1/se_i^2. Identical to the primary corr_aware_meta.R;
+    reproduces the primary pooled p exactly."""
     w = [1 / s**2 for s in ses]
-    beta = sum(b * wi for b, wi in zip(betas, w)) / sum(w)
-    se_naive = math.sqrt(1 / sum(w))
-    k = len(betas)
-    deff = 1 + (k - 1) * RHO
-    se_corr = se_naive * math.sqrt(deff)
+    W = sum(w)
+    a = [wi / W for wi in w]
+    beta = sum(ai * bi for ai, bi in zip(a, betas))
+    n = len(betas)
+    var = sum(a[i] * a[j] * ses[i] * ses[j] * (RHO if i != j else 1.0)
+              for i in range(n) for j in range(n))
+    se_corr = math.sqrt(var)
     z = beta / se_corr
     p = 2 * (1 - 0.5 * (1 + math.erf(abs(z) / math.sqrt(2))))
     return beta, se_corr, p

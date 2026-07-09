@@ -5,11 +5,12 @@ genetically proxied blood **mitochondrial DNA copy number (mtDNA-CN)** across ps
 using **four partially overlapping mtDNA-CN GWAS exposure panels** (qPCR, SNP-array, and WGS-derived,
 with and without blood-cell-composition adjustment).
 
-Yusuf Cicek et al.
+Yusuf Çiçek, Murat Can Çelik, Abdulahad Bayraktar, Halil Aziz Velioğlu
 
 ## Summary of findings
 - Higher genetically proxied mtDNA-CN was associated most robustly with **lower autism spectrum
-  disorder (ASD) liability** (β = −0.182; design-effect-corrected *p* = 5.97 × 10⁻³; BH-FDR *q* = 0.030).
+  disorder (ASD) liability** (OR 0.83, 95% CI 0.73–0.95; β = −0.182; design-effect-corrected
+  *p* = 5.97 × 10⁻³; BH-FDR *q* = 0.030) — the only primary disorder surviving correction.
 - The ASD–ADHD **neurodevelopmental factor (F3)** showed a directionally concordant nominal signal;
   ADHD alone did not survive correction.
 - No robust effects for schizophrenia, bipolar disorder, major depression, general psychopathology, or
@@ -17,6 +18,10 @@ Yusuf Cicek et al.
 - Because the four exposure panels share UK Biobank participants, panel estimates are correlated
   (mean inter-panel *r* = 0.70) and were pooled with a **design-effect (effective-sample-size)
   correction** rather than as independent replications.
+- The ASD association is **sensitive to blood-cell-composition adjustment**: it is carried by the
+  qPCR, SNP-array and unadjusted-WGS panels, whereas the blood-cell-composition-adjusted panel is not
+  significant (*p* = 0.087). This platform dependence reconciles the conflicting prior
+  mtDNA-CN → psychiatric MR literature (see the comparison in the manuscript).
 - Gene-set enrichment (MAGMA × MitoCarta3.0) and exploratory brain eQTL colocalization (GTEx v10) are
   hypothesis-generating; three-way (eQTL × mtDNA-CN × disorder) colocalization and SuSiE conditional
   fine-mapping did not establish a mediator.
@@ -66,7 +71,7 @@ and must be obtained from the sources below. The pipeline expects them under `da
 **Outcomes:** PGC psychiatric GWAS (ADHD Demontis 2023; ASD Grove 2019; BD O'Connell 2025;
 MDD Adams 2025; SCZ Trubetskoy 2022; anxiety, OCD, PTSD, anorexia, BPD, Tourette, postpartum depression,
 antidepressant response) via the Psychiatric Genomics Consortium portal; cross-disorder factor GWAS
-(Grotzinger 2025) via the associated figshare; height/BMI (Yengo 2018, GIANT). Brain cis-eQTL:
+(Grotzinger 2026) via the associated figshare; height/BMI (Yengo 2018, GIANT). Brain cis-eQTL:
 **GTEx v10** (GTEx Portal). Mitochondrial gene set: MitoCarta3.0.
 
 Derived **summary results** that support the figures and tables are included under `results/` and
@@ -77,8 +82,9 @@ See `docs/ENVIRONMENT.md`. Core: R 4.4 (data.table, TwoSampleMR, MR-PRESSO, MRla
 metafor, GenomicSEM, coloc, susieR), Python 3.11 (pyarrow, pyliftover), MAGMA, PLINK v1.9.
 
 ## Citation
-Cicek Y, Çelik MC. *A cross-platform Mendelian randomization study of mitochondrial DNA copy number
-across psychiatric disorders.* (Manuscript; citation/DOI to be added on publication.)
+Çiçek Y, Çelik MC, Bayraktar A, Velioğlu HA. *A cross-platform Mendelian randomization study of
+mitochondrial DNA copy number across psychiatric disorders.* (Manuscript under review; citation/DOI
+to be added on publication.) Correspondence: Halil Aziz Velioğlu (havelioglu@medipol.edu.tr).
 
 ## License
 Code is released under the MIT License (see `LICENSE`). Derived results are provided for reproducibility
